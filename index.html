@@ -83,6 +83,23 @@
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Darker shadow for depth */
         }
 
+        /* Flexbox layout for images and text next to each other */
+        .image-container,
+        .author-image,
+        .contact-image {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .image-container img,
+        .author-image img,
+        .contact-image img {
+            max-width: 200px;  /* Make images a fixed size */
+            height: auto;
+        }
+
     </style>
 </head>
 <body>
@@ -93,22 +110,25 @@
 
     <section>
         <h2>About the Book</h2>
-        <p class="book-description">
-            A rose fairy who loves beautiful clothes, a charmingly polite and chivalrous little goblin, a letter from an oak-wraith, a fierce battle against aphids... A guided tour inside a giant oak, a journey on the wings of the wind in a leaf boat, life inside a rose, air-bubble elevator inside a tree-trunk... The stories of Zilla and Thorn transport you to a world of tiny creatures full of their adventures. These charming tales for preschoolers and small schoolchildren sensitively portray emotions familiar to us all, human relationships, and characters that invite identification while also highlighting the values and inimitable beauty of nature that need to be preserved.
-        </p>
+        <div class="image-container">
+            <img src="https://raw.githubusercontent.com/kingatavasz/fairyandgoblin.github.io/main/photo.jpg" alt="Kíra the Unicorn Image">
+            <p class="book-description">
+                A rose fairy who loves beautiful clothes, a charmingly polite and chivalrous little goblin, a letter from an oak-wraith, a fierce battle against aphids... A guided tour inside a giant oak, a journey on the wings of the wind in a leaf boat, life inside a rose, air-bubble elevator inside a tree-trunk... The stories of Zilla and Thorn transport you to a world of tiny creatures full of their adventures. These charming tales for preschoolers and small schoolchildren sensitively portray emotions familiar to us all, human relationships, and characters that invite identification while also highlighting the values and inimitable beauty of nature that need to be preserved.
+            </p>
+        </div>
 
         <h2>About the Author</h2>
-        <p class="author-bio">
-            Kinga Tavasz is a storyteller and nature enthusiast who weaves tales of wonder for young children.
-        </p>
         <div class="author-image">
             <img src="https://raw.githubusercontent.com/kingatavasz/fairyandgoblin.github.io/main/DSC_0448%20(1).JPG" alt="Author Image">
+            <p class="author-bio">
+                Kinga Tavasz is a storyteller and nature enthusiast who weaves tales of wonder for young children.
+            </p>
         </div>
 
         <h2>Contact and Orders</h2>
-        <p>If you'd like to place an order or inquire about the book, please email me directly at: <a href="mailto:tavaszkingamese@gmail.com" class="email">tavaszkingamese@gmail.com</a></p>
         <div class="contact-image">
             <img src="https://raw.githubusercontent.com/kingatavasz/fairyandgoblin.github.io/main/DSC_0415.JPG" alt="Book Image">
+            <p>If you'd like to place an order or inquire about the book, please email me directly at: <a href="mailto:tavaszkingamese@gmail.com" class="email">tavaszkingamese@gmail.com</a></p>
         </div>
 
         <h2>Purchase Link</h2>
