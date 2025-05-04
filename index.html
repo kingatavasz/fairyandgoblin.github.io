@@ -1,112 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fairy and Goblin - Adventures in the Forest and Beyond</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
-        }
-        header {
-            background-color: #6c9b8b;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 2.5rem;
-        }
-        section {
-            padding: 20px;
-            margin: 20px;
-            background-color: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-        }
-        h2 {
-            color: #333;
-        }
-        .book-description {
-            font-size: 1.1rem;
-            margin: 15px 0;
-        }
-        .author-bio {
-            font-style: italic;
-            margin-top: 20px;
-        }
-        .email {
-            color: #0066cc;
-            font-weight: bold;
-        }
-        .blog-section {
-            margin-top: 30px;
-        }
-        .blog-post {
-            background-color: #e2f4e4;
-            padding: 15px;
-            margin: 10px 0;
-            border-left: 5px solid #6c9b8b;
-        }
-        footer {
-            background-color: #6c9b8b;
-            color: white;
-            text-align: center;
-            padding: 10px;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fairy and Goblin – Adventures in the Forest and Beyond</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Quicksand', sans-serif;
+      background-color: #fdfdf7;
+      color: #333;
+    }
+
+    header {
+      background-color: #8e44ad;
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3em;
+      margin: 0;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .text {
+      flex: 1 1 400px;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .image {
+      flex: 1 1 300px;
+      text-align: center;
+    }
+
+    .image img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .image-caption {
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 8px;
+    }
+
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
 </head>
 <body>
 
-    <header>
-        <h1>Fairy and Goblin - Adventures in the Forest and Beyond</h1>
-    </header>
+  <header>
+    <h1>Fairy and Goblin</h1>
+    <p>Adventures in the Forest and Beyond</p>
+  </header>
 
-    <section>
-        <h2>About the Book</h2>
-        <p class="book-description">
-            A rose fairy who loves beautiful clothes, a charmingly polite and chivalrous little goblin, a letter from an oak-wraith, a fierce battle against aphids... A guided tour inside a giant oak, a journey on the wings of the wind in a leaf boat, life inside a rose, air-bubble elevator inside a tree-trunk... The stories of Zilla and Thorn transport you to a world of tiny creatures full of their adventures. These charming tales for preschoolers and small schoolchildren sensitively portray emotions familiar to us all, human relationships, and characters that invite identification while also highlighting the values and inimitable beauty of nature that need to be preserved.
-        </p>
+  <div class="container">
+    <div class="image">
+      <img src="kira-unikornis.jpg" alt="Kíra the unicorn illustration">
+      <div class="image-caption">Kíra the unicorn – a magical friend in the forest</div>
+    </div>
+    <div class="text">
+      <p>A rose fairy who loves beautiful clothes, a charmingly polite and chivalrous little goblin, a letter from an oak-wraith, a fierce battle against aphids... A guided tour inside a giant oak, a journey on the wings of the wind in a leaf boat, life inside a rose, air-bubble elevator inside a tree-trunk...</p>
+      <p>The stories of Zilla and Thorn transport you to a world of tiny creatures full of their adventures. These charming tales for preschoolers and small schoolchildren sensitively portray emotions familiar to us all, human relationships and characters that invite for identification while also highlighting the values and inimitable beauty of nature that need to be preserved.</p>
+    </div>
+  </div>
 
-        <h2>About the Author</h2>
-        <p class="author-bio">
-            Kinga Tavasz is a storyteller and nature enthusiast who weaves tales of wonder for young children.
-        </p>
-
-        <h2>Contact and Orders</h2>
-        <p>If you'd like to place an order or inquire about the book, please email me directly at: <a href="mailto:tavaszkingamese@gmail.com" class="email">tavaszkingamese@gmail.com</a></p>
-
-        <h2>Purchase Link</h2>
-        <p><em>Coming Soon on Amazon!</em></p>
-    </section>
-
-    <section class="blog-section">
-        <h2>Blog</h2>
-
-        <div class="blog-post">
-            <h3>First Post: Welcome to the Adventures of Zilla and Thorn!</h3>
-            <p>Welcome to my blog! Here I'll be sharing behind-the-scenes stories, updates about the book, and sneak peeks of upcoming adventures. Stay tuned for more!</p>
-            <p><a href="#">Read More...</a></p>
-        </div>
-
-        <div class="blog-post">
-            <h3>Second Post: The Magic of Nature in Children's Stories</h3>
-            <p>Nature plays a big role in my stories. In this post, I’ll dive deeper into how nature’s beauty and wonders inspire the adventures of Zilla and Thorn.</p>
-            <p><a href="#">Read More...</a></p>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2025 Kinga Tavasz</p>
-    </footer>
+  <footer>
+    &copy; 2025 Fairy and Goblin. All rights reserved.
+  </footer>
 
 </body>
 </html>
