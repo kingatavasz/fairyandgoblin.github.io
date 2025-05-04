@@ -4,57 +4,69 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fairy and Goblin - Adventures in the Forest and Beyond</title>
+
     <style>
+        /* New color scheme starts here */
         body {
             font-family: Arial, sans-serif;
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: #f5f5f5;  /* Light grey background */
+            color: #333;  /* Dark grey text */
         }
+
         header {
-            background-color: #6c9b8b;
+            background-color: #4b3f72;  /* Dark blueish purple */
             color: white;
             padding: 20px;
             text-align: center;
         }
+
         header h1 {
             font-size: 2.5rem;
         }
+
         section {
             padding: 20px;
             margin: 20px;
-            background-color: white;
+            background-color: #ffffff;  /* White background for clean look */
             border-radius: 8px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
+
         h2 {
-            color: #333;
+            color: #8b1e3f;  /* Dark red for section titles */
         }
+
         .book-description {
             font-size: 1.1rem;
             margin: 15px 0;
         }
+
         .author-bio {
             font-style: italic;
             margin-top: 20px;
         }
+
         .email {
-            color: #0066cc;
+            color: #8b1e3f;  /* Dark red for email link */
             font-weight: bold;
         }
+
         .blog-section {
             margin-top: 30px;
         }
+
         .blog-post {
-            background-color: #e2f4e4;
+            background-color: #fff8f2;  /* Very light pinkish-beige */
             padding: 15px;
             margin: 10px 0;
-            border-left: 5px solid #6c9b8b;
+            border-left: 5px solid #8b1e3f;  /* Dark red border */
         }
+
         footer {
-            background-color: #6c9b8b;
+            background-color: #4b3f72;  /* Dark blueish purple */
             color: white;
             text-align: center;
             padding: 10px;
@@ -63,61 +75,14 @@
             bottom: 0;
         }
 
-        /* New Styles for Image */
-        .book-section {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        .book-description {
-            flex: 1 1 60%;
-        }
-        .image-container {
-            flex: 1 1 35%;
-            text-align: center;
-        }
-        .image-container img {
-            width: 100%;
-            max-width: 300px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }
-        .author-section {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        .author-bio {
-            flex: 1 1 60%;
-        }
-        .author-image {
-            flex: 1 1 35%;
-            text-align: center;
-        }
-        .author-image img {
-            width: 100%;
-            max-width: 300px;
-            border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-        }
-        .contact-section {
-            display: flex;
-            gap: 20px;
-            flex-wrap: wrap;
-        }
-        .contact-info {
-            flex: 1 1 60%;
-        }
-        .contact-image {
-            flex: 1 1 35%;
-            text-align: center;
-        }
+        /* Box Shadows for Images */
+        .image-container img,
+        .author-image img,
         .contact-image img {
-            width: 100%;
-            max-width: 300px;
             border-radius: 12px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Darker shadow for depth */
         }
+
     </style>
 </head>
 <body>
@@ -126,50 +91,30 @@
         <h1>Fairy and Goblin - Adventures in the Forest and Beyond</h1>
     </header>
 
-    <!-- About the Book Section -->
-    <section class="book-section">
-        <div class="book-description">
-            <h2>About the Book</h2>
-            <p>
-                A rose fairy who loves beautiful clothes, a charmingly polite and chivalrous little goblin, a letter from an oak-wraith, a fierce battle against aphids... A guided tour inside a giant oak, a journey on the wings of the wind in a leaf boat, life inside a rose, air-bubble elevator inside a tree-trunk... The stories of Zilla and Thorn transport you to a world of tiny creatures full of their adventures. These charming tales for preschoolers and small schoolchildren sensitively portray emotions familiar to us all, human relationships, and characters that invite identification while also highlighting the values and inimitable beauty of nature that need to be preserved.
-            </p>
-        </div>
-        <div class="image-container">
-            <img src="https://raw.githubusercontent.com/kingatavasz/fairyandgoblin.github.io/main/photo.jpg" alt="Image of Kíra the unicorn">
-        </div>
-    </section>
-
-    <!-- About the Author Section -->
-    <section class="author-section">
-        <div class="author-bio">
-            <h2>About the Author</h2>
-            <p class="author-bio">
-                Kinga Tavasz is a storyteller and nature enthusiast who weaves tales of wonder for young children.
-            </p>
-        </div>
-        <div class="author-image">
-            <img src="https://raw.githubusercontent.com/kingatavasz/fairyandgoblin.github.io/main/DSC_0448%20(1).JPG" alt="Image of Kinga Tavasz">
-        </div>
-    </section>
-
-    <!-- Contact and Orders Section -->
-    <section class="contact-section">
-        <div class="contact-info">
-            <h2>Contact and Orders</h2>
-            <p>If you'd like to place an order or inquire about the book, please email me directly at: <a href="mailto:tavaszkingamese@gmail.com" class="email">tavaszkingamese@gmail.com</a></p>
-        </div>
-        <div class="contact-image">
-            <img src="https://raw.githubusercontent.com/kingatavasz/fairyandgoblin.github.io/main/DSC_0415.JPG" alt="Image of the book">
-        </div>
-    </section>
-
-    <!-- Purchase Link Section -->
     <section>
+        <h2>About the Book</h2>
+        <p class="book-description">
+            A rose fairy who loves beautiful clothes, a charmingly polite and chivalrous little goblin, a letter from an oak-wraith, a fierce battle against aphids... A guided tour inside a giant oak, a journey on the wings of the wind in a leaf boat, life inside a rose, air-bubble elevator inside a tree-trunk... The stories of Zilla and Thorn transport you to a world of tiny creatures full of their adventures. These charming tales for preschoolers and small schoolchildren sensitively portray emotions familiar to us all, human relationships, and characters that invite identification while also highlighting the values and inimitable beauty of nature that need to be preserved.
+        </p>
+
+        <h2>About the Author</h2>
+        <p class="author-bio">
+            Kinga Tavasz is a storyteller and nature enthusiast who weaves tales of wonder for young children.
+        </p>
+        <div class="author-image">
+            <img src="https://raw.githubusercontent.com/kingatavasz/fairyandgoblin.github.io/main/DSC_0448%20(1).JPG" alt="Author Image">
+        </div>
+
+        <h2>Contact and Orders</h2>
+        <p>If you'd like to place an order or inquire about the book, please email me directly at: <a href="mailto:tavaszkingamese@gmail.com" class="email">tavaszkingamese@gmail.com</a></p>
+        <div class="contact-image">
+            <img src="https://raw.githubusercontent.com/kingatavasz/fairyandgoblin.github.io/main/DSC_0415.JPG" alt="Book Image">
+        </div>
+
         <h2>Purchase Link</h2>
         <p><em>Coming Soon on Amazon!</em></p>
     </section>
 
-    <!-- Blog Section -->
     <section class="blog-section">
         <h2>Blog</h2>
 
