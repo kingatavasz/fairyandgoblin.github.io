@@ -82,6 +82,42 @@
             border-radius: 12px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
         }
+        .author-section {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .author-bio {
+            flex: 1 1 60%;
+        }
+        .author-image {
+            flex: 1 1 35%;
+            text-align: center;
+        }
+        .author-image img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .contact-section {
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .contact-info {
+            flex: 1 1 60%;
+        }
+        .contact-image {
+            flex: 1 1 35%;
+            text-align: center;
+        }
+        .contact-image img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
     </style>
 </head>
 <body>
@@ -104,17 +140,27 @@
     </section>
 
     <!-- About the Author Section -->
-    <section>
-        <h2>About the Author</h2>
-        <p class="author-bio">
-            Kinga Tavasz is a storyteller and nature enthusiast who weaves tales of wonder for young children.
-        </p>
+    <section class="author-section">
+        <div class="author-bio">
+            <h2>About the Author</h2>
+            <p class="author-bio">
+                Kinga Tavasz is a storyteller and nature enthusiast who weaves tales of wonder for young children.
+            </p>
+        </div>
+        <div class="author-image">
+            <img src="https://raw.githubusercontent.com/kingatavasz/fairyandgoblin.github.io/main/author.jpg" alt="Image of Kinga Tavasz">
+        </div>
     </section>
 
     <!-- Contact and Orders Section -->
-    <section>
-        <h2>Contact and Orders</h2>
-        <p>If you'd like to place an order or inquire about the book, please email me directly at: <a href="mailto:tavaszkingamese@gmail.com" class="email">tavaszkingamese@gmail.com</a></p>
+    <section class="contact-section">
+        <div class="contact-info">
+            <h2>Contact and Orders</h2>
+            <p>If you'd like to place an order or inquire about the book, please email me directly at: <a href="mailto:tavaszkingamese@gmail.com" class="email">tavaszkingamese@gmail.com</a></p>
+        </div>
+        <div class="contact-image">
+            <img src="https://raw.githubusercontent.com/kingatavasz/fairyandgoblin.github.io/main/book.jpg" alt="Image of the book">
+        </div>
     </section>
 
     <!-- Purchase Link Section -->
